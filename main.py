@@ -323,7 +323,7 @@ def select_tables(connection):
     select_exec_1_slovo_DB(connection)
     select_song_my_DB(connection)
 
-engine = sqlalchemy.create_engine('postgresql://postgres:Lentyai777@localhost:5432/postgres')
+engine = sqlalchemy.create_engine('postgresql://postgres:pass@localhost:5432/postgres')
 connection = engine.connect()
 num = ''
 while num != '4':
